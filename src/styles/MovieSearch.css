@@ -1,0 +1,44 @@
+/* src/styles/MovieSearch.css */
+.movie-search-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+  }
+  
+  .search-form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .search-form input {
+    flex: 1;
+    padding: 0.5rem;
+  }
+  
+  .search-form button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .pagination button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

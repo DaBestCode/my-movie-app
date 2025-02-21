@@ -1,0 +1,59 @@
+/* src/styles/BookmarkedMovies.css */
+.bookmark-list {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .bookmark-item {
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .bookmark-item img {
+    width: 100px;
+    height: 150px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  
+  .bookmark-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .bookmark-details h4 {
+    margin: 0;
+  }
+  
+  .bookmark-details button {
+    width: fit-content;
+    padding: 0.3rem 0.6rem;
+    border: none;
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  
+  .bookmark-details textarea {
+    width: 100%;
+    height: 60px;
+    padding: 0.4rem;
+    resize: vertical;
+  }
+  
+  .remove-btn {
+    background: #c0392b;
+  }
+  
